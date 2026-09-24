@@ -8,6 +8,14 @@
     --line: #dfe6f0
 }
 
+@media (max-width: 768px) {
+  input,
+  textarea,
+  select {
+    font-size: 16px;
+  }
+}
+
 * {
     box-sizing: border-box
 }
