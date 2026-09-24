@@ -1,0 +1,981 @@
+[
+  {
+    "id": "bolonhesa",
+    "name": "Macarrão à Bolonhesa",
+    "description": "Um clássico que abraça. Massa com molho de tomate encorpado e carne bem temperada para reunir todo mundo à mesa.",
+    "image": "img/macarrao-a-bolonhesa.jpg",
+    "prepTime": 35,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "category": "Massas",
+    "ingredients": [
+      {
+        "id": "massa",
+        "name": "Macarrão",
+        "quantity": 500,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "carne",
+        "name": "Carne moída",
+        "quantity": 500,
+        "unit": "g",
+        "category": "Açougue"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dente",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "molho",
+        "name": "Molho de tomate",
+        "quantity": 340,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "queijo",
+        "name": "Queijo ralado",
+        "quantity": 50,
+        "unit": "g",
+        "category": "Laticínios"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada",
+        "category": "Temperos",
+        "optional": true
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 1,
+        "unit": "colher de sopa",
+        "category": "Mercearia",
+        "optional": true
+      }
+    ],
+    "instructions": [
+      "Pique a cebola e o alho. Aqueça o óleo e refogue até dourar levemente.",
+      "Junte a carne moída e refogue até cozinhar completamente e perder a cor rosada.",
+      "Acrescente o molho de tomate e o sal. Cozinhe em fogo baixo por 15 minutos, mexendo de vez em quando.",
+      "Cozinhe o macarrão em água fervente conforme a embalagem. Escorra, misture ao molho e finalize com queijo ralado."
+    ]
+  },
+  {
+    "id": "strogonoff",
+    "name": "Strogonoff de Frango",
+    "description": "Cremoso, prático e com gostinho de almoço em família. Perfeito para acompanhar arroz e batata palha.",
+    "image": "img/strogonoff-de-frango.jpg",
+    "prepTime": 30,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "category": "Almoço",
+    "ingredients": [
+      {
+        "id": "frango",
+        "name": "Peito de frango",
+        "quantity": 600,
+        "unit": "g",
+        "category": "Açougue"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite",
+        "quantity": 200,
+        "unit": "g",
+        "category": "Laticínios"
+      },
+      {
+        "id": "ketchup",
+        "name": "Ketchup",
+        "quantity": 3,
+        "unit": "colher de sopa",
+        "category": "Mercearia"
+      },
+      {
+        "id": "mostarda",
+        "name": "Mostarda",
+        "quantity": 1,
+        "unit": "colher de sopa",
+        "category": "Mercearia"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 1,
+        "unit": "colher de sopa",
+        "category": "Mercearia",
+        "optional": true
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada",
+        "category": "Temperos",
+        "optional": true
+      }
+    ],
+    "instructions": [
+      "Corte o frango em cubos e pique a cebola.",
+      "Aqueça o óleo e refogue a cebola. Adicione o frango e cozinhe completamente, até não haver partes rosadas no centro.",
+      "Misture o ketchup, a mostarda e o sal. Cozinhe por 3 minutos.",
+      "Abaixe o fogo, incorpore o creme de leite e aqueça sem deixar ferver. Sirva em seguida."
+    ]
+  },
+  {
+    "id": "panqueca",
+    "name": "Panqueca",
+    "description": "Uma manhã mais gostosa começa com panquecas fofinhas. Sirva com as frutas que você tiver em casa.",
+    "image": "img/panqueca.jpg",
+    "prepTime": 20,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "category": "Café da manhã",
+    "ingredients": [
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 150,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 180,
+        "unit": "ml",
+        "category": "Laticínios"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Mercearia"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 2,
+        "unit": "colher de sopa",
+        "category": "Mercearia"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico",
+        "quantity": 1,
+        "unit": "colher de chá",
+        "category": "Mercearia"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 1,
+        "unit": "colher de sopa",
+        "category": "Laticínios"
+      }
+    ],
+    "instructions": [
+      "Misture a farinha, o açúcar e o fermento em uma tigela.",
+      "Adicione o leite, o ovo e metade da manteiga derretida. Mexa até incorporar.",
+      "Unte uma frigideira com a manteiga restante e aqueça em fogo baixo.",
+      "Coloque pequenas porções de massa. Quando surgirem bolhas, vire e doure o outro lado. Repita até terminar."
+    ]
+  },
+  {
+    "id": "brigadeiro",
+    "name": "Brigadeiro",
+    "description": "Poucos ingredientes, muitas memórias. O docinho brasileiro para celebrar ou adoçar a tarde.",
+    "image": "img/brigadeiro.jpg",
+    "prepTime": 30,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "category": "Sobremesas",
+    "ingredients": [
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 395,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "chocolate",
+        "name": "Chocolate em pó",
+        "quantity": 3,
+        "unit": "colher de sopa",
+        "category": "Mercearia"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 1,
+        "unit": "colher de sopa",
+        "category": "Laticínios"
+      },
+      {
+        "id": "granulado",
+        "name": "Chocolate granulado",
+        "quantity": 100,
+        "unit": "g",
+        "category": "Mercearia"
+      }
+    ],
+    "instructions": [
+      "Coloque o leite condensado, o chocolate em pó e a manteiga em uma panela.",
+      "Mexa em fogo baixo por cerca de 10 minutos, até desgrudar do fundo.",
+      "Transfira para um prato untado e deixe esfriar completamente antes de manusear.",
+      "Com as mãos levemente untadas, faça bolinhas e passe no granulado. O tempo total pode aumentar conforme o resfriamento."
+    ]
+  },
+  {
+    "id": "bolo",
+    "name": "Bolo de Chocolate",
+    "description": "Macio e cheio de chocolate. Uma receita simples para o café da tarde ganhar um motivo especial.",
+    "image": "img/bolo-de-chocolate.jpg",
+    "prepTime": 50,
+    "servings": 8,
+    "difficulty": "Fácil",
+    "category": "Sobremesas",
+    "ingredients": [
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 240,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "chocolate",
+        "name": "Chocolate em pó",
+        "quantity": 90,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 200,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "ovos",
+        "name": "Ovo",
+        "quantity": 3,
+        "unit": "unidade",
+        "category": "Mercearia"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 240,
+        "unit": "ml",
+        "category": "Laticínios"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 120,
+        "unit": "ml",
+        "category": "Mercearia"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento químico",
+        "quantity": 1,
+        "unit": "colher de sopa",
+        "category": "Mercearia"
+      }
+    ],
+    "instructions": [
+      "Preaqueça o forno a 180 °C e unte uma forma média.",
+      "Bata os ovos, o açúcar, o óleo e o leite. Incorpore a farinha e o chocolate em pó.",
+      "Misture delicadamente o fermento e despeje na forma.",
+      "Asse por 35 a 40 minutos, até um palito sair limpo. Deixe amornar antes de desenformar."
+    ]
+  },
+  {
+    "id": "omelete",
+    "name": "Omelete",
+    "description": "Uma refeição leve que fica pronta em minutos. Ovos, tomate e queijo em uma combinação que sempre funciona.",
+    "image": "img/omelete.jpg",
+    "prepTime": 10,
+    "servings": 1,
+    "difficulty": "Fácil",
+    "category": "Jantar",
+    "ingredients": [
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 2,
+        "unit": "unidade",
+        "category": "Mercearia"
+      },
+      {
+        "id": "tomate",
+        "name": "Tomate",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "queijo",
+        "name": "Queijo muçarela",
+        "quantity": 40,
+        "unit": "g",
+        "category": "Laticínios"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 1,
+        "unit": "colher de chá",
+        "category": "Mercearia",
+        "optional": true
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada",
+        "category": "Temperos",
+        "optional": true
+      }
+    ],
+    "instructions": [
+      "Bata os ovos com o sal e pique o tomate.",
+      "Aqueça o óleo em uma frigideira antiaderente e despeje os ovos.",
+      "Adicione o tomate e o queijo. Cozinhe em fogo baixo até os ovos firmarem completamente.",
+      "Dobre a omelete ao meio e sirva quente."
+    ]
+  },
+  {
+    "id": "carreteiro",
+    "name": "Arroz Carreteiro",
+    "description": "Arroz soltinho e carne dourada em uma só panela. Uma refeição generosa para dividir.",
+    "image": "img/arroz-carreteiro.jpg",
+    "prepTime": 45,
+    "servings": 4,
+    "difficulty": "Médio",
+    "category": "Carnes",
+    "ingredients": [
+      {
+        "id": "arroz",
+        "name": "Arroz",
+        "quantity": 300,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "carne",
+        "name": "Carne bovina em cubos",
+        "quantity": 400,
+        "unit": "g",
+        "category": "Açougue"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dente",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "tomate",
+        "name": "Tomate",
+        "quantity": 2,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 2,
+        "unit": "colher de sopa",
+        "category": "Mercearia",
+        "optional": true
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada",
+        "category": "Temperos",
+        "optional": true
+      }
+    ],
+    "instructions": [
+      "Aqueça o óleo e doure a carne em cubos pequenos até cozinhar completamente.",
+      "Acrescente cebola e alho picados. Refogue e adicione os tomates picados.",
+      "Junte o arroz e o sal, mexa e cubra com aproximadamente 700 ml de água quente.",
+      "Cozinhe em fogo baixo, com a panela parcialmente tampada, até o arroz ficar macio. Adicione mais água se necessário e deixe descansar 5 minutos antes de servir."
+    ]
+  },
+  {
+    "id": "hamburguer",
+    "name": "Hambúrguer Caseiro",
+    "description": "Seu lanche favorito, feito por você. Um hambúrguer suculento com ingredientes simples e muito sabor.",
+    "image": "img/hamburguer-caseiro.jpg",
+    "prepTime": 25,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "category": "Lanches",
+    "ingredients": [
+      {
+        "id": "carne",
+        "name": "Carne moída",
+        "quantity": 600,
+        "unit": "g",
+        "category": "Açougue"
+      },
+      {
+        "id": "pao",
+        "name": "Pão de hambúrguer",
+        "quantity": 4,
+        "unit": "unidade",
+        "category": "Padaria"
+      },
+      {
+        "id": "queijo",
+        "name": "Queijo muçarela",
+        "quantity": 100,
+        "unit": "g",
+        "category": "Laticínios"
+      },
+      {
+        "id": "tomate",
+        "name": "Tomate",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "alface",
+        "name": "Alface",
+        "quantity": 4,
+        "unit": "folha",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada",
+        "category": "Temperos",
+        "optional": true
+      }
+    ],
+    "instructions": [
+      "Divida a carne em quatro porções e modele os hambúrgueres. Tempere com sal.",
+      "Aqueça uma frigideira e grelhe dos dois lados até a carne estar completamente cozida no centro.",
+      "Coloque o queijo sobre a carne e tampe rapidamente para derreter.",
+      "Monte nos pães com alface lavada e tomate fatiado. Sirva em seguida."
+    ]
+  },
+  {
+    "id": "pao-de-queijo",
+    "name": "Pão de Queijo",
+    "description": "Crocante por fora, macio por dentro. Um café da manhã com sabor de padaria.",
+    "image": "img/pao-de-queijo.jpg",
+    "prepTime": 40,
+    "servings": 6,
+    "difficulty": "Médio",
+    "category": "Café da manhã",
+    "ingredients": [
+      {
+        "id": "polvilho",
+        "name": "Polvilho doce",
+        "quantity": 250,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 120,
+        "unit": "ml",
+        "category": "Laticínios"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 60,
+        "unit": "ml",
+        "category": "Mercearia"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Mercearia"
+      },
+      {
+        "id": "queijo",
+        "name": "Queijo meia cura",
+        "quantity": 150,
+        "unit": "g",
+        "category": "Laticínios"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada",
+        "category": "Temperos",
+        "optional": true
+      }
+    ],
+    "instructions": [
+      "Preaqueça o forno a 200 °C. Coloque o polvilho em uma tigela resistente ao calor.",
+      "Aqueça o leite com o óleo e o sal até ferver. Despeje sobre o polvilho, misture com uma colher e deixe amornar.",
+      "Incorpore o ovo e o queijo ralado. Amasse até ficar uniforme e modele pequenas bolinhas com as mãos untadas.",
+      "Distribua em uma assadeira, deixando espaço entre elas. Asse por 25 a 30 minutos, até crescerem e dourarem levemente."
+    ]
+  },
+  {
+    "id": "frango-com-legumes",
+    "name": "Frango com Legumes",
+    "description": "Frango dourado e legumes coloridos para um almoço simples e completo.",
+    "image": "img/frango-com-legumes.jpg",
+    "prepTime": 30,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "category": "Almoço",
+    "ingredients": [
+      {
+        "id": "frango",
+        "name": "Peito de frango",
+        "quantity": 600,
+        "unit": "g",
+        "category": "Açougue"
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura",
+        "quantity": 2,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "abobrinha",
+        "name": "Abobrinha",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dente",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 2,
+        "unit": "colher de sopa",
+        "category": "Mercearia"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada",
+        "category": "Temperos",
+        "optional": true
+      }
+    ],
+    "instructions": [
+      "Corte o frango em cubos, a cenoura em fatias finas e a abobrinha em meias-luas. Pique a cebola e o alho.",
+      "Aqueça o azeite e doure o frango. Junte a cebola e o alho e refogue por 2 minutos.",
+      "Adicione a cenoura e 100 ml de água. Tampe e cozinhe em fogo baixo por 8 minutos.",
+      "Junte a abobrinha e o sal. Cozinhe por mais 5 a 8 minutos, até os legumes ficarem macios e o frango estar completamente cozido no centro."
+    ]
+  },
+  {
+    "id": "sopa-de-legumes",
+    "name": "Sopa de Legumes",
+    "description": "Uma panela aconchegante de legumes para um jantar leve e cheio de cor.",
+    "image": "img/sopa-de-legumes.jpg",
+    "prepTime": 35,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "category": "Jantar",
+    "ingredients": [
+      {
+        "id": "batata",
+        "name": "Batata",
+        "quantity": 3,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura",
+        "quantity": 2,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "abobrinha",
+        "name": "Abobrinha",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dente",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 1,
+        "unit": "colher de sopa",
+        "category": "Mercearia"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada",
+        "category": "Temperos",
+        "optional": true
+      }
+    ],
+    "instructions": [
+      "Lave os legumes. Descasque as batatas e as cenouras e corte tudo em cubos pequenos.",
+      "Em uma panela, aqueça o azeite e refogue a cebola e o alho picados.",
+      "Adicione batata, cenoura e 1 litro de água. Cozinhe por 15 minutos após começar a ferver.",
+      "Junte a abobrinha e o sal e cozinhe por mais 10 minutos, até todos os legumes ficarem macios. Amasse algumas batatas para engrossar o caldo."
+    ]
+  },
+  {
+    "id": "macarrao-alho-e-oleo",
+    "name": "Macarrão Alho e Óleo",
+    "description": "Poucos ingredientes e muito sabor para resolver a refeição em minutos.",
+    "image": "img/macarrao-alho-e-oleo.jpg",
+    "prepTime": 20,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "category": "Massas",
+    "ingredients": [
+      {
+        "id": "massa",
+        "name": "Macarrão",
+        "quantity": 250,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 4,
+        "unit": "dente",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "azeite",
+        "name": "Azeite",
+        "quantity": 3,
+        "unit": "colher de sopa",
+        "category": "Mercearia"
+      },
+      {
+        "id": "salsinha",
+        "name": "Salsinha",
+        "quantity": 1,
+        "unit": "colher de sopa",
+        "category": "Hortifruti",
+        "optional": true
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada",
+        "category": "Temperos",
+        "optional": true
+      }
+    ],
+    "instructions": [
+      "Cozinhe o macarrão em água fervente conforme a embalagem. Reserve meia xícara da água antes de escorrer.",
+      "Fatie o alho. Aqueça o azeite em fogo baixo e doure o alho levemente, sem deixar queimar.",
+      "Junte o macarrão escorrido e o sal. Adicione a água reservada aos poucos e misture até envolver a massa.",
+      "Finalize com a salsinha picada, se desejar, e sirva imediatamente."
+    ]
+  },
+  {
+    "id": "picadinho-de-carne",
+    "name": "Picadinho de Carne",
+    "description": "Carne macia com batata e cenoura em um molho caseiro que combina com arroz.",
+    "image": "img/picadinho-de-carne.jpg",
+    "prepTime": 55,
+    "servings": 4,
+    "difficulty": "Médio",
+    "category": "Carnes",
+    "ingredients": [
+      {
+        "id": "carne",
+        "name": "Carne bovina em cubos",
+        "quantity": 600,
+        "unit": "g",
+        "category": "Açougue"
+      },
+      {
+        "id": "batata",
+        "name": "Batata",
+        "quantity": 2,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dente",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "molho",
+        "name": "Molho de tomate",
+        "quantity": 170,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 2,
+        "unit": "colher de sopa",
+        "category": "Mercearia"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada",
+        "category": "Temperos",
+        "optional": true
+      }
+    ],
+    "instructions": [
+      "Aqueça o óleo e doure a carne em pequenas porções. Junte a cebola e o alho picados e refogue.",
+      "Adicione o molho, o sal e 500 ml de água quente. Tampe e cozinhe em fogo baixo por cerca de 30 minutos.",
+      "Acrescente a batata e a cenoura em cubos. Cozinhe por mais 15 a 20 minutos, até a carne e os legumes ficarem macios.",
+      "Adicione água quente se o molho secar antes de a carne amaciar. Deixe apurar sem tampa por alguns minutos e sirva."
+    ]
+  },
+  {
+    "id": "sanduiche-natural",
+    "name": "Sanduíche Natural",
+    "description": "Um lanche fresco e cremoso com atum, cenoura e folhas crocantes.",
+    "image": "img/sanduiche-natural.jpg",
+    "prepTime": 10,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "category": "Lanches",
+    "ingredients": [
+      {
+        "id": "pao",
+        "name": "Pão de forma integral",
+        "quantity": 4,
+        "unit": "fatia",
+        "category": "Padaria"
+      },
+      {
+        "id": "atum",
+        "name": "Atum em conserva",
+        "quantity": 170,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "iogurte",
+        "name": "Iogurte natural",
+        "quantity": 3,
+        "unit": "colher de sopa",
+        "category": "Laticínios"
+      },
+      {
+        "id": "alface",
+        "name": "Alface",
+        "quantity": 2,
+        "unit": "folha",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada",
+        "category": "Temperos",
+        "optional": true
+      }
+    ],
+    "instructions": [
+      "Escorra o atum. Lave a cenoura e a alface e seque bem as folhas. Rale a cenoura.",
+      "Misture o atum, a cenoura, o iogurte e o sal até formar um recheio cremoso.",
+      "Divida o recheio entre duas fatias de pão, acrescente a alface e cubra com as fatias restantes.",
+      "Corte ao meio e sirva. Se não consumir imediatamente, mantenha refrigerado."
+    ]
+  },
+  {
+    "id": "limonada",
+    "name": "Limonada",
+    "description": "Refrescante e simples, para acompanhar o almoço ou uma tarde quente.",
+    "image": "img/limonada.jpg",
+    "prepTime": 10,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "category": "Bebidas",
+    "ingredients": [
+      {
+        "id": "limao",
+        "name": "Limão",
+        "quantity": 4,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "acucar",
+        "name": "Açúcar",
+        "quantity": 3,
+        "unit": "colher de sopa",
+        "category": "Mercearia",
+        "optional": true
+      },
+      {
+        "id": "hortela",
+        "name": "Hortelã",
+        "quantity": 8,
+        "unit": "folha",
+        "category": "Hortifruti",
+        "optional": true
+      }
+    ],
+    "instructions": [
+      "Lave os limões, corte ao meio e esprema o suco, retirando as sementes.",
+      "Misture o suco com 1 litro de água gelada em uma jarra.",
+      "Se desejar, adicione o açúcar e mexa até dissolver.",
+      "Acrescente as folhas de hortelã lavadas, se estiver usando, e sirva em seguida."
+    ]
+  },
+  {
+    "id": "vitamina-de-banana",
+    "name": "Vitamina de Banana",
+    "description": "Banana, leite e aveia em uma bebida cremosa para começar bem o dia.",
+    "image": "img/vitamina-de-banana.jpg",
+    "prepTime": 5,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "category": "Bebidas",
+    "ingredients": [
+      {
+        "id": "banana",
+        "name": "Banana",
+        "quantity": 2,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "leite",
+        "name": "Leite",
+        "quantity": 400,
+        "unit": "ml",
+        "category": "Laticínios"
+      },
+      {
+        "id": "aveia",
+        "name": "Aveia em flocos",
+        "quantity": 2,
+        "unit": "colher de sopa",
+        "category": "Mercearia"
+      },
+      {
+        "id": "canela",
+        "name": "Canela em pó",
+        "quantity": 1,
+        "unit": "pitada",
+        "category": "Temperos",
+        "optional": true
+      }
+    ],
+    "instructions": [
+      "Descasque as bananas e corte em rodelas.",
+      "Coloque no liquidificador com o leite gelado e a aveia.",
+      "Bata até ficar homogêneo e cremoso.",
+      "Divida em dois copos e finalize com canela, se desejar. Sirva em seguida."
+    ]
+  }
+]
