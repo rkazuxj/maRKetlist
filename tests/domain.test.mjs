@@ -51,9 +51,9 @@ test('local repository persists and rejects corrupt data without replacing it', 
   listRepository.save([list, created]); assert.deepEqual(listRepository.load(), [list, created]);
   localStorage.setItem('marketlist.lists.v1','{}'); assert.throws(()=>listRepository.load()); assert.equal(localStorage.getItem('marketlist.lists.v1'),'{}');
 });
-test('sixteen recipes cover all categories and reference user-supplied JPG images', async () => {
+test('twenty-four recipes cover all categories and reference user-supplied JPG images', async () => {
   const recipes = JSON.parse(await readFile(new URL('../data/recipes.json', import.meta.url)));
-  assert.equal(recipes.length,16); assert.equal(new Set(recipes.map(recipe=>recipe.id)).size,recipes.length);
+  assert.equal(recipes.length,24); assert.equal(new Set(recipes.map(recipe=>recipe.id)).size,recipes.length);
   assert.equal(new Set(recipes.map(recipe=>recipe.category)).size,8);
   for (const recipe of recipes) {
     assert.ok(recipe.instructions.length); assert.ok(recipe.ingredients.length);
