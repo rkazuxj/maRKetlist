@@ -977,5 +977,419 @@
       "Bata até ficar homogêneo e cremoso.",
       "Divida em dois copos e finalize com canela, se desejar. Sirva em seguida."
     ]
+  },
+  {
+    "id": "tapioca-de-queijo",
+    "name": "Tapioca de Queijo",
+    "description": "Uma tapioca quentinha, macia e recheada para começar o dia com praticidade.",
+    "image": "img/tapioca-de-queijo.jpg",
+    "prepTime": 15,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "category": "Café da manhã",
+    "ingredients": [
+      {
+        "id": "tapioca",
+        "name": "Goma de tapioca",
+        "quantity": 200,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "queijo",
+        "name": "Queijo muçarela",
+        "quantity": 100,
+        "unit": "g",
+        "category": "Laticínios"
+      },
+      {
+        "id": "manteiga",
+        "name": "Manteiga",
+        "quantity": 1,
+        "unit": "colher de chá",
+        "category": "Laticínios",
+        "optional": true
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada",
+        "category": "Temperos",
+        "optional": true
+      }
+    ],
+    "instructions": [
+      "Aqueça uma frigideira antiaderente em fogo médio.",
+      "Peneire a goma de tapioca diretamente na frigideira e espalhe formando uma camada uniforme.",
+      "Quando a massa firmar, distribua o queijo em metade do disco e tempere com sal.",
+      "Dobre a tapioca ao meio e aqueça até o queijo derreter. Sirva com manteiga, se desejar."
+    ]
+  },
+  {
+    "id": "arroz-de-forno",
+    "name": "Arroz de Forno",
+    "description": "Uma receita prática para transformar o arroz do dia anterior em um almoço dourado e completo.",
+    "image": "img/arroz-de-forno.jpg",
+    "prepTime": 40,
+    "servings": 4,
+    "difficulty": "Fácil",
+    "category": "Almoço",
+    "ingredients": [
+      {
+        "id": "arroz",
+        "name": "Arroz cozido",
+        "quantity": 600,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "frango",
+        "name": "Frango cozido desfiado",
+        "quantity": 300,
+        "unit": "g",
+        "category": "Açougue"
+      },
+      {
+        "id": "milho",
+        "name": "Milho verde",
+        "quantity": 170,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "molho",
+        "name": "Molho de tomate",
+        "quantity": 200,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "queijo",
+        "name": "Queijo muçarela",
+        "quantity": 150,
+        "unit": "g",
+        "category": "Laticínios"
+      }
+    ],
+    "instructions": [
+      "Preaqueça o forno a 200 °C e unte uma travessa média.",
+      "Misture o arroz, o frango, o milho e o molho de tomate em uma tigela.",
+      "Transfira a mistura para a travessa e cubra com a muçarela.",
+      "Asse por 20 minutos, até o queijo derreter e dourar levemente."
+    ]
+  },
+  {
+    "id": "quiche-de-legumes",
+    "name": "Quiche de Legumes",
+    "description": "Uma torta leve e dourada com legumes coloridos para um jantar sem complicação.",
+    "image": "img/quiche-de-legumes.jpg",
+    "prepTime": 55,
+    "servings": 4,
+    "difficulty": "Médio",
+    "category": "Jantar",
+    "ingredients": [
+      {
+        "id": "massa",
+        "name": "Massa para torta",
+        "quantity": 300,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 3,
+        "unit": "unidade",
+        "category": "Mercearia"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite",
+        "quantity": 200,
+        "unit": "g",
+        "category": "Laticínios"
+      },
+      {
+        "id": "abobrinha",
+        "name": "Abobrinha",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "cenoura",
+        "name": "Cenoura",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "queijo",
+        "name": "Queijo ralado",
+        "quantity": 80,
+        "unit": "g",
+        "category": "Laticínios"
+      }
+    ],
+    "instructions": [
+      "Preaqueça o forno a 180 °C e forre uma forma com a massa.",
+      "Corte a abobrinha e a cenoura em cubos pequenos e refogue rapidamente.",
+      "Bata os ovos com o creme de leite e misture os legumes e metade do queijo.",
+      "Despeje sobre a massa, cubra com o queijo restante e asse por 35 minutos, até firmar e dourar."
+    ]
+  },
+  {
+    "id": "nhoque-de-batata",
+    "name": "Nhoque de Batata",
+    "description": "Macio e reconfortante, o nhoque caseiro combina com molho de tomate e reúne a família.",
+    "image": "img/nhoque-de-batata.jpg",
+    "prepTime": 60,
+    "servings": 4,
+    "difficulty": "Médio",
+    "category": "Massas",
+    "ingredients": [
+      {
+        "id": "batata",
+        "name": "Batata",
+        "quantity": 700,
+        "unit": "g",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 180,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "ovo",
+        "name": "Ovo",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Mercearia"
+      },
+      {
+        "id": "molho",
+        "name": "Molho de tomate",
+        "quantity": 340,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "queijo",
+        "name": "Queijo ralado",
+        "quantity": 50,
+        "unit": "g",
+        "category": "Laticínios",
+        "optional": true
+      }
+    ],
+    "instructions": [
+      "Cozinhe as batatas com casca até ficarem macias. Descasque ainda mornas e amasse.",
+      "Misture o ovo e a farinha aos poucos, apenas até formar uma massa macia.",
+      "Faça rolinhos, corte em pedaços e cozinhe em água fervente até os nhoques subirem.",
+      "Escorra, cubra com o molho aquecido e finalize com queijo ralado."
+    ]
+  },
+  {
+    "id": "esfiha-de-carne",
+    "name": "Esfiha de Carne",
+    "description": "Massa macia e recheio bem temperado para um lanche assado e saboroso.",
+    "image": "img/esfiha-de-carne.jpg",
+    "prepTime": 50,
+    "servings": 6,
+    "difficulty": "Médio",
+    "category": "Lanches",
+    "ingredients": [
+      {
+        "id": "farinha",
+        "name": "Farinha de trigo",
+        "quantity": 500,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "carne",
+        "name": "Carne moída",
+        "quantity": 400,
+        "unit": "g",
+        "category": "Açougue"
+      },
+      {
+        "id": "tomate",
+        "name": "Tomate",
+        "quantity": 2,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "fermento",
+        "name": "Fermento biológico seco",
+        "quantity": 1,
+        "unit": "colher de sopa",
+        "category": "Mercearia"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada",
+        "category": "Temperos"
+      }
+    ],
+    "instructions": [
+      "Misture a farinha, o fermento, o sal e 250 ml de água morna. Sove até formar uma massa lisa e deixe descansar por 30 minutos.",
+      "Misture a carne com o tomate e a cebola picados e tempere com sal.",
+      "Divida a massa em porções, abra discos e distribua o recheio no centro.",
+      "Feche em formato triangular e asse a 200 °C por 20 minutos, até dourar."
+    ]
+  },
+  {
+    "id": "bife-acebolado",
+    "name": "Bife Acebolado",
+    "description": "Bife dourado com cebolas macias para uma refeição rápida, caseira e cheia de sabor.",
+    "image": "img/bife-acebolado.jpg",
+    "prepTime": 25,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "category": "Carnes",
+    "ingredients": [
+      {
+        "id": "carne",
+        "name": "Bife bovino",
+        "quantity": 400,
+        "unit": "g",
+        "category": "Açougue"
+      },
+      {
+        "id": "cebola",
+        "name": "Cebola",
+        "quantity": 2,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "alho",
+        "name": "Alho",
+        "quantity": 2,
+        "unit": "dente",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "oleo",
+        "name": "Óleo",
+        "quantity": 2,
+        "unit": "colher de sopa",
+        "category": "Mercearia"
+      },
+      {
+        "id": "sal",
+        "name": "Sal",
+        "quantity": 1,
+        "unit": "pitada",
+        "category": "Temperos"
+      }
+    ],
+    "instructions": [
+      "Tempere os bifes com o sal e o alho amassado.",
+      "Aqueça metade do óleo e doure os bifes dos dois lados até o ponto desejado.",
+      "Retire os bifes e refogue as cebolas fatiadas no óleo restante até murcharem.",
+      "Volte os bifes à frigideira, misture com a cebola e sirva imediatamente."
+    ]
+  },
+  {
+    "id": "mousse-de-maracuja",
+    "name": "Mousse de Maracujá",
+    "description": "Cremosa, refrescante e fácil de preparar, com o equilíbrio perfeito entre doce e azedo.",
+    "image": "img/mousse-de-maracuja.jpg",
+    "prepTime": 15,
+    "servings": 6,
+    "difficulty": "Fácil",
+    "category": "Sobremesas",
+    "ingredients": [
+      {
+        "id": "condensado",
+        "name": "Leite condensado",
+        "quantity": 395,
+        "unit": "g",
+        "category": "Mercearia"
+      },
+      {
+        "id": "creme",
+        "name": "Creme de leite",
+        "quantity": 200,
+        "unit": "g",
+        "category": "Laticínios"
+      },
+      {
+        "id": "maracuja",
+        "name": "Polpa de maracujá",
+        "quantity": 200,
+        "unit": "g",
+        "category": "Hortifruti"
+      }
+    ],
+    "instructions": [
+      "Coloque o leite condensado, o creme de leite e a polpa no liquidificador.",
+      "Bata por 3 minutos, até formar um creme uniforme.",
+      "Distribua em taças ou em uma travessa pequena.",
+      "Leve à geladeira por pelo menos 3 horas antes de servir."
+    ]
+  },
+  {
+    "id": "suco-verde",
+    "name": "Suco Verde",
+    "description": "Uma bebida leve e refrescante com limão, couve e maçã para variar o café da manhã.",
+    "image": "img/suco-verde.jpg",
+    "prepTime": 10,
+    "servings": 2,
+    "difficulty": "Fácil",
+    "category": "Bebidas",
+    "ingredients": [
+      {
+        "id": "couve",
+        "name": "Couve",
+        "quantity": 2,
+        "unit": "folha",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "maca",
+        "name": "Maçã",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "limao",
+        "name": "Limão",
+        "quantity": 1,
+        "unit": "unidade",
+        "category": "Hortifruti"
+      },
+      {
+        "id": "gengibre",
+        "name": "Gengibre",
+        "quantity": 1,
+        "unit": "pitada",
+        "category": "Temperos",
+        "optional": true
+      }
+    ],
+    "instructions": [
+      "Lave as folhas de couve e a maçã. Corte a maçã em pedaços e retire as sementes.",
+      "Esprema o limão e coloque o suco no liquidificador com a couve e a maçã.",
+      "Adicione 400 ml de água gelada e o gengibre, se desejar.",
+      "Bata até ficar homogêneo e sirva imediatamente, com gelo se preferir."
+    ]
   }
 ]
